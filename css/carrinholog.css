@@ -1,0 +1,136 @@
+/* NAVBAR */
+.header {
+    overflow: hidden;
+    background-color: #7ac74f;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #a1cf6b;
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+/* DROPDOWN NAV */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* GRID PARA INSTRUSÃO */
+
+.grid-perfil {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .grid-perfil-item { 
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+ /* GRID PRODUTOS */
+  .grid-carrinho {
+    display: grid;
+    grid-template-columns: 20em;
+    justify-content: center;
+  }
+  
+  .grid-carrinho-item {
+    background-color: #E6E6E6;
+    font-size: 1em;
+    text-align: left;
+  }
+
+/* botão de login */
+.btn-log {
+    background-color: #e87461;
+    border: none;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%; /* SE CONTINUAR 20% FICA 20% na página que não precisa */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* RODAPE */
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    background: #7ac74f;
+}
+
+/* TAMANHO DAS IMAGENS */
+
+#img-car {
+    height: 6em;
+    width: 6em;
+    float: left;
+    margin-right: 0.5em;
+}

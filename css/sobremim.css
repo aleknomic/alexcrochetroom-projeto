@@ -1,0 +1,179 @@
+/* NAVBAR */
+.header {
+    overflow: hidden;
+    background-color: #7ac74f;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #a1cf6b;
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+/* DROPDOWN NAV */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* BOTÃO INTRO */
+.btn-mp {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #e87461;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btn-mp span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn-mp span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn-mp:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn-mp:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* GRID CATALOGO */
+
+.grid-catalog {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 10px;
+    text-align: center;
+}
+  
+  .grid-catalog-item {
+    padding: 20px;  
+    font-size: 20px;
+    text-align: center;
+}
+
+/* AREA DA PÁGINA */
+  .postagem{
+    padding: 1em;
+    background: white;
+    text-align: center;
+  }
+  
+  #area-principal{
+    width: 60em;
+    margin: 0 auto; /* auto paramargm autoática */
+  }
+  
+  #area-postagens{
+    width: 60em;
+    float: left;
+  }
+
+  /* RESPONSIVE FRAME */
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    bottom: 0;
+    right: 0;
+    border: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 18%; /* 16:9 Aspect Ratio */
+}
+
+  /* RODAPE */
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    background: #7ac74f;
+  }
+
+  /* TAMANHO DE IMAGEM LOGO*/
+#img-logo {
+    height: 10em;
+    width: 10em;
+}

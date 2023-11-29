@@ -1,0 +1,124 @@
+/* NAVBAR */
+.header {
+    overflow: hidden;
+    background-color: #7ac74f;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: #a1cf6b;
+    color: black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+
+/* DROPDOWN NAV */
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 12px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* GRID CATALOGO */
+
+.grid-catalog {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 10px;
+  }
+  
+  .grid-catalog-item {
+    padding: 20px;  
+    font-size: 20px;
+  }
+
+/* BOTÃO CATALOGO */
+.btn-c {
+    background-color: #e87461;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* RODAPE */
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1em;
+    background: #7ac74f;
+  }
+
+/* LINK SEM APARÊNCIA */
+
+#link {
+    text-decoration: none;
+    color: black;
+  }
+
+/* IMAGEM */
+  #img-cat {
+    height: 10em;
+    width: 10em;
+    float: left;
+    margin-right: 1em;
+  }

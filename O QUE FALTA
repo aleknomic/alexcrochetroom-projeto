@@ -1,0 +1,22 @@
+FEITO (08 nov)
+- Página do usuário c/ itens curtidos e informações editáveis do perfil
+
+O QUE FALTA
+- Página Carrinho (if logado - aparece o carrinho / if not - aparece botão para fazer login)
+    -- Fazer os botões do carrinho funcionarem para adicionar/tirar item no carrinho
+- Página para concluir a compra
+- Mais informações dos produtos
+
+Nome do Destinatário*
+Cidade*
+Bairro*
+Rua*
+Número*
+Complemento
+Opções de compra*
+- PIX
+    -- Gerar código ao finalizar
+- Boleto
+    -- Gerar boleto(?) ao finalizar
+Total (da Compra)*
+Frete*

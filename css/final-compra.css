@@ -1,0 +1,51 @@
+/* GRID LOGIN */
+.grid-log {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  
+  .grid-log-item {
+    padding: 20px;  
+    font-size: 20px;
+  }
+
+  /* form login */
+.form-login {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+  }
+
+  /* estilização dos campos do formulário */
+.campos {
+    border: 0;
+    border-bottom: 1px solid gray;
+    font-size: 1rem;
+    width: 20rem;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+  }
+
+/* botão submit do form */
+.btn-submit {
+    background-color: #7ac74f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 20rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+  }
+
+  /* LINK SEM APARÊNCIA */
+
+#link {
+    text-decoration: none;
+    color: black;
+  }
