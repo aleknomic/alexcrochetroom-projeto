@@ -33,36 +33,39 @@ ul {
   float: right;
 }
 
-/* GRID PARA INSTRUSÃO */
+/* GRID CATALOGO */
 
-.grid-perfil {
+.grid-catalog,
+#grid-catalog {
     display: grid;
     grid-template-columns: auto;
+    padding: 0px 10px;
   }
   
-  .grid-perfil-item { 
-    font-size: 1.2em;
-    text-align: center;
+.grid-catalog-item {
+    padding: 20px;  
+    font-size: 20px;
   }
 
-/* BTN PERFIL */
+  section {
+    padding: 1em;
+    font-size: 1em;
+  }
 
-.btn-perfil {
-    color: black;
-    padding: 1em; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-    width: 100%; /* Set a width if needed */
-    display: block; /* Make the buttons appear below each other */
-    text-align: left;
-}
-
-.btn-perfil:hover {
-    background-color: #a1cf6b;
-}
-
-a {
+/* BOTÃO CATALOGO */
+.btn-c,
+.btn-remove {
+    background-color: #e87461;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: inline-block;
     text-decoration: none;
-}
+    cursor: pointer;
+  }
 
 /* RODAPE */
 
@@ -73,6 +76,27 @@ footer {
     background: #7ac74f;
   }
 
+/* LINK SEM APARÊNCIA */
+
+#link {
+    text-decoration: none;
+    color: black;
+  }
+
+/* IMAGEM */
+  .img-cat {
+    height: 12em;
+    width: 12em;
+    float: left;
+    margin-right: 1em;
+  }
+
+
+h1 {
+  margin-left: 45px;
+  margin-top: 60px;
+  }
+  
   @media screen and (max-width: 500px) {
     nav a {
       float: none;
@@ -89,13 +113,13 @@ footer {
       float: none;
     }
   
-    .grid-perfil {
-      display: grid;
-      grid-template-columns: auto;
+    .img-cat {
+      height: 10em;
+      width: 10em;
     }
-    
-    .grid-perfil-item {
-      padding: 1em 0;
-      font-size: 1.1em;
+  
+    .btn-c {
+      padding: 1em 5em;
+      font-size: 0.8em;
     }
   }
